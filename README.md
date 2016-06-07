@@ -9,10 +9,15 @@ mpirun -n 12 /home/3xkuban/freqCount/final5/parker -t 2 -m 2048 -k 31 -l 5 path/
 
 
 -t:		pocet threadov, defaultne 2
+
 -m:		"dostupna" pamat, davam menej ako max aby boli tie sobory mensie a lepsie isiel sort a tak...
+
 -k:		velkost k-tice
+
 -l:		threshold, minimalna hranica pri ukladani (aspon takuto pocetnost musi mat k-tica aby sa ulozila)
+
 -o:		cesta k vystupu
+
 - na konci je cesta k vstupnemu suboru
 
 
